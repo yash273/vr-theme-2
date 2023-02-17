@@ -1,0 +1,150 @@
+@charset "utf-8";
+@import "../css/floating-inputs";
+
+
+
+
+/*
+------------------------------------------------------------
+Project Name : Sample Project;
+------------------------------------------------------------
+*/
+
+/* Reset 
+--------------------------------------------------------------------------------------------------------*/
+
+/* 
+http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* General 
+--------------------------------------------------------------------------------------------------------*/
+* { outline: none !important; }
+.window-resizing *, body:not(.page-loaded) *{transition: none!important; }
+a{transition: all 0.3s;}
+html, body { min-width: 320px; min-height: 100vh; }
+body { font-size: 16px; line-height: 22px;font-family: 'Poppins', sans-serif; -ms-overflow-style: scrollbar; -webkit-font-smoothing: subpixel-antialiased;}
+.wrapper { min-height: 100vh; }
+ a { color: #000; text-decoration: none; } 
+a:hover { color: #999; text-decoration: none; }
+// h1, h2, h3, h4, h5, h6 { line-height: 1.2em; padding: 0 }
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { display: block; }
+h1 { font-size: 65px; font-weight: 300; line-height: 70px;}
+h2 { font-size: 30px; font-weight: 600; line-height: 45px;}
+h3 { }
+h4 { font-weight: 400;font-size: 22px;line-height: 28px;}
+h5 { font-weight: 400;font-size: 20px;line-height: 30px;}
+h6 { }
+p { padding: 0 0 20px; }
+input[type=text], input[type=email], input[type=password], textarea { -webkit-appearance: none; appearance: none; }
+::-webkit-input-placeholder { color: #A5A5A5;; }
+::-moz-placeholder { color: #A5A5A5;; }
+:-ms-input-placeholder { color: #A5A5A5;; }
+:-moz-placeholder { color: #A5A5A5;; }
+::-moz-focus-inner { border: 0; }
+select:-moz-focusring { color: transparent; text-shadow: 0 0 0 #000; }
+option:not(:checked) { color: black; }
+
+
+// .login-form{max-width: 391px;}
+.form-control{color:  $color;}
+.form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label,.form-floating>.form-select~label {width: fit-content;height: fit-content;padding: 0px 5px;background-color: #ffffff;left: 2px;transition: all 0.2s ease;}
+.form-floating>label{padding: 13px;}
+.show-password{position: absolute;right: 5px;top: 10px;display: block;padding: 6px;border: none;}
+.form-control.is-invalid,.form-control.is-invalid:focus, .was-validated .form-control:invalid, .form-control,.form-control:focus{box-shadow: none; background-image: none;}
+.btn-primary{font-weight: 600;font-size: 18px;line-height: 27px; color: #ffffff;}
+button{background: transparent; border: none; padding: 0;}
+
+/* Login
+------------------------------------------------------------------------------------------------------- */
+.login-wrapper{ background-image: url(/images/login-banner.png); min-height: 100vh; background-repeat: no-repeat; background-position: center;background-size: cover; position: relative; padding: 80px;
+    footer{a{color: #ffffff;}}}
+.about-company{ color: #ffffff;
+        b{font-weight: 700;}}
+.company-login{ background-color: #ffffff;padding: 38px 44px 35px 42px ;}
+.inputs{margin: 10px 0px;}
+.new-account{margin-top: 15px;}
+.new-account,.forgot-pass{font-weight: 400;font-size: 14px;line-height: 21px;}
+.sign-up{color:#3BCAC9 ;font-weight: 500;}
+.vh{height: 70%;}
+.form-col{max-width: 479px;}
+
+/* Sidebar
+--------------------------------------------------------------------------------------------------------*/
+.sidebar{min-width: 246px; background-color: #3BCAC9;height: 100vh; color: #ffffff; padding-top: 30px; padding-left: 10px;font-weight: 500;font-size: 16px;line-height: 24px;
+    .nav-logo{padding-left:20px ;margin-bottom: 57px;}
+    ul{
+        .nav-list{  
+            .nav-link{ padding-left: 20px ; height: 44px;
+                span{}
+            }
+            .active{background-color: #faebd7;}
+        }
+    }} 
+
+/* Header
+--------------------------------------------------------------------------------------------------------*/
+.search-input{ margin-left: 18px;
+    .form-control {border: 1px solid transparent;color: #000;background: url("/images/search.svg") no-repeat;background-position: 12px center;padding: 12px 16px 12px 48px;}}
+.search-input 
+.dashboard-container{ height: 100%; }
+header{height: 71px; background-color:  #858585; padding: 0px 30px;}
+.dropdown-toggle::after { content: none; }
+.right-dashboard{width: 100%;}
+.profile-name{margin: 0px 12px;}
+.notify{margin-right: 30px;}
+
+/* Dashboard-Main-Content
+--------------------------------------------------------------------------------------------------------*/
+.content{background-color: antiquewhite; padding: 39px 30px 43px 30px;}
+.content-title{font-size: 30px; font-weight: 500; line-height: 45px;}
+.dash-detail,.sale-graph,.sellar-chart,.report-chart,.employee-info{background-color: #ffffff;}
+// .dash-row{margin-bottom: 30px;}
+
+/* MainNavigation
+--------------------------------------------------------------------------------------------------------*/
+.main-navigation { }
+
+/* Main Content
+--------------------------------------------------------------------------------------------------------*/
+.main-content {}
+
+
+
+
+
+/* Footer
+--------------------------------------------------------------------------------------------------------*/
+.footer { position: absolute; text-align: center; bottom: 10%; right:10%;
+    .privacy{margin-right: 20px;}}
+// .copyright { padding: 0; color: #fff; font-size: 0.8em; line-height: 1.2em; }
+
+/* Responsive Media Queries
+--------------------------------------------------------------------------------------------------------*/
+@media (max-width:1399px) { }
+@media (max-width:1199px) { }
+@media (max-width:991px) { }
+@media (max-width:767px) {
+
+h1{ font-size: 55px; line-height: 60px;}
+ }
+@media (max-width:575px) { 
+    .login-wrapper{ padding: 25px;}
+    h1{ font-size: 45px; line-height: 50px;}
+    h2 { font-weight: 500;font-size: 20px;line-height: 30px;}
+    h5 { font-weight: 300;font-size: 15px;line-height: 20px;}
+    .btn-primary{font-weight: 400;font-size: 16px;line-height: 24px; color: #ffffff;}
+
+}
+

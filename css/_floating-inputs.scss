@@ -1,0 +1,24 @@
+$primary:                               #3BCAC9;
+$color:                                 rgba(0, 0, 0, 0.7);
+$danger:                                red;
+$danger-text:                           red;
+$border-radius:                         5px;
+$input-font-size:                       16px;
+$input-font-weight:                     400;
+$input-placeholder-color:               #A5A5A5;;
+$form-floating-height:                  50px;
+$form-floating-padding:                 13px ;
+$form-floating-label-opacity:           1;
+$form-floating-transition:              opacity .1s ease-in-out, transform .1s ease-in-out;
+$form-floating-label-transform:         scale(0.75) translateY(-12px) translateX(10px);
+$form-floating-input-padding-t:         13px;
+$form-floating-input-padding-b:         13px;
+
+$form-select-box-shadow:                none;
+$form-select-focus-box-shadow:          none;
+
+$input-btn-focus-box-shadow:            none;
+@import "../bootstrap-scss/bootstrap.scss";
+
+
+
