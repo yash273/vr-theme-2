@@ -19,61 +19,66 @@
                 <li class="nav-list">
                     <a class="nav-link active" href="dashboard.html" title="Dashboard">
                         <img src="/images/ico-dashboard-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <img src="/images/upper-curve.png" alt="" class="upper-curves">
+                        <img src="/images/lower-curve.png" alt="" class="lower-curves">
                         <span>Dashboard</span>
                     </a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link" href="innerpage.html" title="Dashboard">
                         <img src="/images/ico-market-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-market-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-market-active.svg" alt="dashboard" class="icon-active" />
                         <span>Market</span>
                     </a>
                 <li class="nav-list">
                     <a class="nav-link" href="#" title="innerpage">
                         <img src="/images/ico-user-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
                         <span>Users</span>
                     </a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link" href="#" title="Dashboard">
                         <img src="/images/ico-docs-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
                         <span>Docs</span>
                     </a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link" href="#" title="Dashboard">
                         <img src="/images/ico-offers-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
                         <span>Offer</span>
                     </a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link" href="#" title="Dashboard">
                         <img src="/images/ico-help-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
                         <span>Help</span>
                     </a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link" href="#" title="Dashboard">
                         <img src="/images/ico-setting-default.svg" alt="dashboard" class="default" />
-                        <!-- <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" /> -->
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
                         <span>Setting</span>
                     </a>
                 </li>
             </ul>
+            
         </nav>
+        <div class="overlay"></div>
         <div class="right-dashboard">
             <header class="header d-flex align-items-center justify-content-between">
                 <div class="buttons d-flex align-items-center">
-                    <div class="menu-btn">
+                    <div class="menu-btn toggle-sidebar">
                         <img src="/images/menu-bar.svg" alt="menu-bar">
                     </div>
                     <div class="search-input">
                         <input type="search" class="form-control"  placeholder="Search">
+                        <button type="button" class="btn btn-close-search"><img src="/images/action.png" alt="close"></button>
                     </div>
                     <button class="btn btn-search" type="button"><img src="/images/search.svg"></button>
                 </div>
@@ -113,64 +118,239 @@
                 </div>
                 <div class="row dash-row">
                     <div class="col col-lg-4 col-md-6 ">
-                        <div class="dash-detail d-flex">
+                        <div class="dash-detail d-flex justify-content-center">
                         <div>
-                            <div class="stat-name">My Wallet</div>
-                                <div class="numbers">$865.2k</div>
+                            <div class="stat-name"><h6>Order</h6></div>
+                                <div class="numbers"><h3>1,343</h3></div>
                                 <div class="stat-last-row d-flex flex-column flex-xl-row justify-content-between">
-                                    <div class="differ positive">+$20.9k</div>
-                                    <div class="interval">Since last week </div>
+                                    <div class="differ positive">+ 120</div>
+                                    <div class="interval">From last Week </div>
                                 </div>   
                         </div>
                         <img src="/images/ico-order.svg" alt="order">
                     </div>
                     </div>
                     <div class="col col-lg-4 col-md-6 ">
-                        <div class="dash-detail d-flex">
+                        <div class="dash-detail d-flex justify-content-center">
                         <div>
-                            <div class="stat-name">My Wallet</div>
-                                <div class="numbers">$865.2k</div>
+                            <div class="stat-name"><h6>Total Product</h6></div>
+                                <div class="numbers"><h3>803</h3></div>
                                 <div class="stat-last-row d-flex flex-column flex-xl-row justify-content-between">
-                                    <div class="differ positive">+$20.9k</div>
-                                    <div class="interval">Since last week </div>
+                                    <div class="differ positive">+ 80</div>
+                                    <div class="interval">New Products</div>
                                 </div>   
                         </div>
-                        <img src="/images/ico-order.svg" alt="order">
+                        <img src="/images/ico-total.svg" alt="star">
                     </div>
                     </div>
                     <div class="col col-lg-4 col-md-6 ">
-                        <div class="dash-detail d-flex">
+                        <div class="dash-detail d-flex justify-content-center">
                         <div>
-                            <div class="stat-name">My Wallet</div>
-                                <div class="numbers">$865.2k</div>
+                            <div class="stat-name"><h6>Unique Visitor</h6></div>
+                                <div class="numbers"><h3>15,789</h3></div>
                                 <div class="stat-last-row d-flex flex-column flex-xl-row justify-content-between">
-                                    <div class="differ positive">+$20.9k</div>
-                                    <div class="interval">Since last week </div>
+                                    <div class="differ negative">-640</div>
+                                    <div class="interval">From last Week</div>
                                 </div>   
                         </div>
-                        <img src="/images/ico-order.svg" alt="order">
+                        <img src="/images/ico-visitor.svg" alt="visitor">
                     </div>
                     </div>
                 </div>
                 <div class="row dash-row">
-                    <div class=" col-lg-6">
+                    <div class="col col-xl-6 col-sm-12 col-12">
                         <div class="sale-graph">
-                            <img src="/images/ico-order.svg" alt="order">
+                            <h6>Total Sale</h6>
+                            <div class="d-flex align-items-center justify-content-center">
+                            <img src="/images/data-graph.svg" alt="data-graph" class="img-fluid">
+                        </div></div>
+                    </div>
+                    <div class="col col-xl-3 col-sm-6 col-12 ">
+                        <div class="seller-chart">
+                            <div class="seller-title d-flex justify-content-between align-items-center">
+                                <h6>Top Seller</h6>
+                                <div class="legend">
+                                    <button class="btn text-primary" type="button">Show More</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img src="/images/seller-chart.png" alt="order" class="img-fluid">
+                            </div>
+                            <div class="cats">
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <p class="bg-blue">Category 1 </p>
+                                    <p >70% </p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <p class="bg-orange">Category 2</p>
+                                    <p>30%</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 ">
-                        <div class="sellar-chart">
-                            <img src="/images/ico-order.svg" alt="order">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="report-chart">
-                            <img src="/images/ico-order.svg" alt="order">
+                    <div class="col col-xl-3 col-sm-6 col-12">
+                        <div class="seller-chart">
+                            <div class="seller-title d-flex justify-content-between align-items-center">
+                                <h6>Sales Report</h6>
+                                <div class="legend">
+                                    <button class="btn text-primary" type="button">Show More</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img src="/images/report-chart1.png" alt="order" class="img-fluid">
+                            </div>
+                            <div class="cats">
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <p class="bg-blue">Category 1 </p>
+                                    <p >60% </p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <p class="bg-orange">Category 2</p>
+                                    <p>25%</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <p class="bg-white">Category 3</p>
+                                    <p>15%</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="employee-info">
-                    kdjf
+                    <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <th>Employee Name </th>
+                            <th>Email ID </th>
+                            <th>Phone no </th>
+                            <th>Joining Date </th>
+                            <th>Status </th>
+                            <th>Action </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Darrell Steward</td>
+                                <td>alma.lawson@example.com</td>
+                                <td>(629) 555-0129</td>
+                                <td>August 7, 2017</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Annette Black</td>
+                                <td>michelle.rivera@example.com</td>
+                                <td>(704) 555-0127</td>
+                                <td>March 13, 2014</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jenny Wilson</td>
+                                <td>georgia.young@example.com</td>
+                                <td>(270) 555-0117</td>
+                                <td>May 6, 2012</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Kathryn Murphy</td>
+                                <td>dolores.chambers@example.com</td>
+                                <td>(207) 555-0119</td>
+                                <td>November 16, 2014</td>
+                                <td class="text-danger">Disable </td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Arlene McCoy</td>
+                                <td>michael.mitc@example.com</td>
+                                <td>(405) 555-0128</td>
+                                <td>October 24, 2018</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jerome Bell</td>
+                                <td>debbie.baker@example.com</td>
+                                <td>(225) 555-0118</td>
+                                <td>October 30, 2017</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Eleanor Pena</td>   
+                                <td>bill.sanders@example.com</td>
+                                <td>(219) 555-0114</td>
+                                <td>May 9, 2014</td>
+                                <td class="text-primary">Active</td>
+                                <td class="dropdown action">
+                                    <button class=" dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                                        <img src="/images/action.png" class="action">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
                 </div>
             </div>
         </div>
