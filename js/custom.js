@@ -57,7 +57,7 @@ $(document).ready(function() {
 		$("body").toggleClass("search-open");
 	});
 
-
+	$('#OpenImgUpload').click(function(){ $('#imgupload').trigger('click'); });
 	// Don't add anything below this --------------------------------------------------------------
 	// Add Class on Window Load
 	$("body").addClass("page-loaded");

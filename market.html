@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login | Company</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Meta descriptions may be included in search results to concisely summarize page content.">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- <link rel="stylesheet" href="css/custom.css"> -->
+</head>
+
+<body> 
+    <div class="dashboard-container d-flex flex-row">
+        <nav class="sidebar">
+            <img class="nav-logo" src="/images/nav-logo.png" alt="">
+            <ul>
+                <li class="nav-list ">
+                    <a class="nav-link " href="dashboard.html" title="Dashboard">
+                        <img src="/images/ico-dashboard-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-list active">
+                    <a class="nav-link " href="market.html" title="Dashboard">
+                        <img src="/images/ico-market-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-market-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Market</span>
+                    </a>
+                    <img src="/images/upper-curve.png" alt="" class="upper-curves">
+                    <img src="/images/lower-curve.png" alt="" class="lower-curves">
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#" title="innerpage">
+                        <img src="/images/ico-user-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Users</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#" title="Dashboard">
+                        <img src="/images/ico-docs-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Docs</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#" title="Dashboard">
+                        <img src="/images/ico-offers-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Offer</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#" title="Dashboard">
+                        <img src="/images/ico-help-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Help</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#" title="Dashboard">
+                        <img src="/images/ico-setting-default.svg" alt="dashboard" class="default" />
+                        <img src="/images/ico-dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Setting</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+        <div class="overlay"></div>
+        <div class="right-dashboard">
+            <header class="header d-flex align-items-center justify-content-between">
+                <div class="buttons d-flex align-items-center">
+                    <div class="menu-btn toggle-sidebar">
+                        <img src="/images/menu-bar.svg" alt="menu-bar">
+                    </div>
+                    <div class="search-input">
+                        <input type="search" class="form-control"  placeholder="Search">
+                        <button type="button" class="btn btn-close-search"><img src="/images/close-icon.svg" alt="close"></button>
+                    </div>
+                    <button class="btn btn-search" type="button"><img src="/images/search.svg"></button>
+                </div>
+                
+
+
+                <div class="dropdowns d-flex align-items-center" >
+                    <div class="dropdown  d-flex align-items-center notify">
+                        <button class=" dropdown-toggle align-items-center d-flex" type="button" data-bs-toggle="dropdown">
+                            <img src="/images/ico-notification.svg" class="notification">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="dropdown">
+                        <button class=" dropdown-toggle profile align-items-center d-flex" type="button" data-bs-toggle="dropdown">
+                            <img src="/images/profile.png" >
+                            <span class="profile-name">Hi, John</span>
+                            <img src="/images/dark-dropdown.svg" class="ic-down">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </header>
+            <div class="content">
+                <div class="content-title">
+                    Market
+                </div>
+                <div class="market-form">
+                    <span class="row-title">One Column</span>
+                <div class="form-floating mb-3 mb-md-4 mt-3 mt-md-4">
+                    <input type="text" class="form-control" placeholder="Full Name">
+                    <label>Full Name</label>
+                </div>
+                <div class="form-floating custom-dropdown mb-3 mb-md-4">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Select Occupation</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <!-- <label for="floatingSelect">Select Occupation</label> -->
+                </div>
+                <div class="form-floating mb-3 mb-md-4">
+                    <textarea class="form-control" placeholder="Description" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Description</label>
+                </div>
+
+                <span class="row-title">Two Column</span>
+                <div class="row mt-3 mt-md-4">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                            <label>Full Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" value="JohnDoe" disabled>
+                            <label>Disabled</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" placeholder="">
+                            <label>Focus</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="password" class="form-control password" placeholder="Password">
+                            <label>Password</label>
+                            <button class="btn show-password" type="button"><img src="/images/ico-eye.svg"
+                                    alt="password"></button>
+                        </div>
+                    </div>   
+                </div>
+
+                <span class="row-title">Three Column</span>
+                <div class="row mt-3 mt-md-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input-group has-validation mb-3 mb-md-4">
+                            <div class="form-floating is-invalid">
+                              <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+                              <label for="floatingInputGroup2">Error</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Enter your Full Name
+                            </div>
+                          </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="form-floating custom-dropdown mb-3 mb-md-4">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option selected>Select Country</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <div id="validationFeedback" class="hint">
+                                Choose your Country
+                            </div>
+                            <!-- <label for="floatingSelect">Select Occupation</label> -->
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" value="Placeholder" disabled>
+                            <label>Label</label>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="row-title">Four Column</span>
+                <div class="row mt-3 mt-md-4">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                            <label>Full Name</label>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" value="JohnDoe" disabled>
+                            <label>Disabled</label>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="password" class="form-control password" placeholder="Password">
+                            <label>Password</label>
+                            <button class="btn show-password" type="button"><img src="/images/ico-eye.svg"
+                                    alt="password"></button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="form-floating mb-3 mb-md-4">
+                            <input type="text" class="form-control" placeholder="">
+                            <label>Focus</label>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="row-title">Other Elements</span>
+                <h6 class="mt-2 mt-md-3 mb-1 mb-md-2">File Upload</h6>
+            
+            <div class="uploadbutton d-flex align-items-center form-check-inline ">         
+              <input type="file" id="imgupload" class="uploadbutton" style="display:none;"> 
+              <button id="OpenImgUpload" class="upload border-0 d-flex form-check-inline align-items-center">
+                <img src="./images/ico-upload.svg" alt="upload">
+                <span class="text">Upload</span>
+              </button>
+              <span class="nis text-secondary">no item selected</span>
+            </div>
+
+                <h6 class="mt-3 mt-md-4 mb-1 mb-md-2">Check Box</h6>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+				<label class="form-check-label" for="flexCheckChecked">
+                    Selected
+				</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+				<label class="form-check-label" for="flexCheckDefault">
+                    Not yet Selected
+				</label>
+			  </div>
+
+			  <h6 class="mt-3 mt-md-4 mb-1 mb-md-2">Radio Button</h6>
+
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+				<label class="form-check-label" for="flexRadioDefault1">
+                   Selected
+				</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+				<label class="form-check-label" for="flexRadioDefault2">
+                    Not yet Selected
+				</label>
+			  </div>
+
+              <h6 class="mt-3 mt-md-4 mb-1 mb-md-2">Call to Action</h6>
+
+              <div class="button-list mb-4 mb-md-5">
+                <button class="btn btn-primary upper-case me-3 mt-2">Primary</button>
+                <button class="btn btn-outline-primary upper-case me-3 mt-2">Secondary</button>
+                <button class="btn btn-disabled upper-case mt-2" disabled>disabled</button>
+
+            </div>
+            <span class="row-title">Tabs</span>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-1" type="button"
+                            role="tab" aria-controls="home" aria-selected="true">Tab1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab"
+                            aria-controls="profile" aria-selected="false">Tab2</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab"
+                            aria-controls="contact" aria-selected="false">Tab3</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    </div>
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel">It
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    </div>
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+		
+	<!-- JavaScripts -->
+	<script src="js/main.js"></script>
+</body>
+</html>
