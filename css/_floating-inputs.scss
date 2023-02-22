@@ -1,13 +1,15 @@
 $primary:                               #3BCAC9;
 $orange:                                #FF9047;
+$secondary:                             #A5A5A5;
 $blue-white:                            #C0F1F1;
-$color:                                 rgba(0, 0, 0, 0.7);
+$color:                                  #A5A5A5;
 $danger:                                red;
 $danger-text:                           red;
 $border-radius:                         5px;
 $input-font-size:                       16px;
 $input-font-weight:                     400;
-$input-placeholder-color:               #A5A5A5;;
+
+$input-placeholder-color:               $secondary;
 $form-floating-height:                  50px;
 $form-floating-padding:                 13px ;
 $form-floating-label-opacity:           1;
@@ -27,8 +29,18 @@ $btn-link-disabled-color:               #6D6D6D;
 
 $dropdown-item-padding-y:               1px;
 $dropdown-item-padding-x:               0px;
-// $btn-link-disabled-bg:                  
-// $gray-600:                              #f0f0f0;
+
+$form-select-color:                     $secondary;
+$form-floating-label-color:             $secondary;
+
+$form-floating-label-disabled-color:    $secondary;
+$form-label-color:                      $secondary;
+$input-group-addon-color:               $secondary;
+$form-text-color:                       $secondary;
+$input-plaintext-color:                 $secondary;
+$form-check-label-color:                $secondary;
+// $form-check-input-border:               $secondary;
+$input-border-color:                    $secondary;
 @import "../bootstrap-scss/bootstrap.scss";
 
 

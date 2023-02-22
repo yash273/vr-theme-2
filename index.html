@@ -12,51 +12,46 @@
 </head>
 
 <body> 
-    <div class="login-wrapper  ">
+    <div class="login-wrapper d-flex flex-column justify-content-around justify-content-md-between">
         <!-- Start Login -->
-        <div class="company-login-logo d-none d-md-block">
-            <img src="/images/company-login-logo.svg" alt="company-login-logo">
+    <!-- <div> -->
+        <img src="/images/company-login-logo.svg" alt="company-login-logo-new" class="company-login-logo-new">
+    <!-- </div> -->
+    <section class="row  justify-content-between align-items-center align-self-center  middle-row">
+        <div class="col-xl-7 col-lg-6 px-md-4">
+            <div class="about-company align-self-center d-none d-md-block"><h1>Get all <b>Bussiness Solution</b> at one Place</h1>
+            <h4 class="d-none d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry, Ipsum has been the industry.</h4></div>
         </div>
-        <div class="row align-items-center align-self-center justify-content-center vh">
-            <div class="col-xl-8 col-lg-6 px-md-4">
-                <div class="about-company align-self-center d-none d-md-block"><h1>Get all <b>Bussiness Solution</b> at one Place</h1>
-                <h4 class="d-none d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry, Ipsum has been the industry.</h4></div>
-                <div class="company-login-logo d-md-none  ">
-                    <img src="/images/company-login-logo.svg" alt="company-login-logo">
+        <div class="col-xl-4 col-lg-6 offset-xl-1 form-col">
+            <div class="company-login ms-0 d-flex flex-column align-items-left">
+                <h2>Welcome to Company</h2>
+                <h5 class="mb-4">Login into your Account</h5>
+                <div class="form-floating text-secondary inputs">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+                    <label for="floatingInput">Username</label>
                 </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 form-col">
-                <div class="company-login ms-0 d-flex flex-column align-items-left">
-                    <h2>Welcome to Company</h2>
-                    <h5 class="mb-4">Login into your Account</h5>
-                    <div class="form-floating inputs">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Username">
-                        <label for="floatingInput">Username</label>
-                    </div>
-        
-                    <div class="form-floating inputs">
-                        <input type="password" class="form-control " id="floatingInput" placeholder="Username">
-                        <label for="floatingInput">Password</label>
-                        <button class="btn show-password" type="button"><img src="images/ico-eye.svg" alt="password"></button>
-                    </div>
-
-                    <div class=" justify-content-between d-flex inputs">
-                        <a href="dashboard.html" class="btn btn-primary upper-case">LOGIN</a>
-                        <a href="#" title="Forgot password" class="align-self-center forgot-pass">Forgot Password?</a>
-                    </div>
-                    <p class="new-account">Don’t have an account?<a class="sign-up" href="#" title="register"> SIGN UP</a></p>
-
+    
+                <div class="form-floating text-secondary inputs">
+                    <input type="password" class="form-control " id="floatingInput" placeholder="Username">
+                    <label for="floatingInput">Password</label>
+                    <button class="btn show-password" type="button"><img src="images/ico-eye.svg" alt="password"></button>
                 </div>
+
+                <div class=" justify-content-between d-flex inputs">
+                    <a href="dashboard.html" class="btn btn-primary upper-case">LOGIN</a>
+                    <a href="#" title="Forgot password" class="align-self-center forgot-pass">Forgot Password?</a>
+                </div>
+                <p class="new-account">Don’t have an account?<a class="sign-up upper-case" href="#" title="register"> SIGN UP</a></p>
+
             </div>
         </div>
-    
-    
+    </section>
 		
 	<!-- Start Footer -->
-    <footer class="footer me-0">		
+    <div class="pptc me-0 d-flex justify-content-end ">		
 		<a class="privacy" href="#">privacy policy</a>
     <a href="#">terms & condition</a>				
-	</footer>
+    </div>
 	<!-- End Footer -->	
 </div>
 	<!-- JavaScripts -->
