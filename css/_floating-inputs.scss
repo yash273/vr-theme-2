@@ -2,7 +2,7 @@ $primary:                               #3BCAC9;
 $orange:                                #FF9047;
 $secondary:                             #A5A5A5;
 $blue-white:                            #C0F1F1;
-$color:                                  #A5A5A5;
+$color:                                 #A5A5A5;
 $danger:                                red;
 $danger-text:                           red;
 $border-radius:                         5px;
@@ -22,7 +22,7 @@ $form-select-box-shadow:                none;
 $form-select-focus-box-shadow:          none;
 
 $input-btn-focus-box-shadow:            none;
-$input-disabled-color:                  null;
+$input-disabled-color:                  $color;
 $input-disabled-bg:                     #ffffff;
 $input-disabled-border-color:           null;
 $btn-link-disabled-color:               #6D6D6D;
